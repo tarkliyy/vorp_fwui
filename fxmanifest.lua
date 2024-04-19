@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 fx_version 'adamant'
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
 
@@ -24,10 +25,9 @@ files {
 --ui_page 'ui/index.html'--
 
 ---------------- Dependencies ----------------------------------------------------
-dependencies { 
+dependencies {
     'vorp_core'
 }
 
 ---------------- EXPORT If you need ----------------------------------------------
 exports {}
-
